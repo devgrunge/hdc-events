@@ -29,5 +29,19 @@
 @else
 <p>O nome não é pedro</p>
 @endif
+---------------------------------------------------
+@for($i = 0; $i < count($arr); $i++)
+ <p>{{$arr[$i]}}</p>
+@endfor
+---------------------------------------------------
+@php 
+$nomeDoMatheus = "matheus";
+echo '<br>' . $nomeDoMatheus; 
+@endphp
+<br>  --------------------------------------------------- 
+@foreach($nomes as $nome)
+<br>{{$nome}}
+{{$loop->index}}
+@endforeach
  </body>
 </html>
