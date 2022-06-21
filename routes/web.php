@@ -19,15 +19,4 @@ Route::get('/events/create',[EventController:: class, 'create'] );
 Route::get('/enter/signin',[EventController:: class, 'signin'] );
 Route::get('/signup/form',[EventController:: class, 'signup'] );
 
-// Route::get('/products', function () {
-
-//   $busca = request('search');
-
-//     return view('products', ['busca' => $busca]);
-// });
-
-// Route::get('/products-test/{id?}', function ($id = null) {
-//   return view('product', [ 'id' => $id]);
-// });
-
 
